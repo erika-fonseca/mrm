@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        td.red-cell {
+            background-color: red;
+            color: white; /* Optional: Make text white for better contrast */
+        }
+    </style>
+</head>
+<body>
+    <p style="text-align: center;">Table Example<p>
+    <table>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+        <tr>
+            <td>Row 1, Cell 1</td>
+            <td class="red-cell">Row 1, Cell 2</td>
+        </tr>
+        <tr>
+            <td>Row 2, Cell 1</td>
+            <td>Row 2, Cell 2</td>
+        </tr>
+    </table>
+    <center><h5>Table 1.1: This table is going to be referenced in the table of contents</h5></center>
+</body>
+</html>
